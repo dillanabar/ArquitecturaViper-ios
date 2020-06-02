@@ -19,7 +19,7 @@
 		C39C6644248569F700F0BBFD /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C663D248569F700F0BBFD /* HomeRemoteDataManager.swift */; };
 		C39C6645248569F700F0BBFD /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C663E248569F700F0BBFD /* HomeWireFrame.swift */; };
 		C39C664724856A2700F0BBFD /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39C664624856A2700F0BBFD /* HomeView.storyboard */; };
-		C3C5BE952486A6D200D9D5F0 /* CustonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5BE942486A6D200D9D5F0 /* CustonCell.swift */; };
+		C3C5BE952486A6D200D9D5F0 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5BE942486A6D200D9D5F0 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,7 @@
 		C39C663D248569F700F0BBFD /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
 		C39C663E248569F700F0BBFD /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
 		C39C664624856A2700F0BBFD /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
-		C3C5BE942486A6D200D9D5F0 /* CustonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonCell.swift; sourceTree = "<group>"; };
+		C3C5BE942486A6D200D9D5F0 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		C39C6637248569D600F0BBFD /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
-				C3C5BE932486A6AC00D9D5F0 /* CustonCell */,
+				C3C5BE932486A6AC00D9D5F0 /* CustomCell */,
 				C39C663C248569F700F0BBFD /* HomeView.swift */,
 				C39C664624856A2700F0BBFD /* HomeView.storyboard */,
 				C39C6638248569F700F0BBFD /* HomePresenter.swift */,
@@ -96,12 +96,12 @@
 			path = HomeView;
 			sourceTree = "<group>";
 		};
-		C3C5BE932486A6AC00D9D5F0 /* CustonCell */ = {
+		C3C5BE932486A6AC00D9D5F0 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
-				C3C5BE942486A6D200D9D5F0 /* CustonCell.swift */,
+				C3C5BE942486A6D200D9D5F0 /* CustomCell.swift */,
 			);
-			path = CustonCell;
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +178,7 @@
 				C39C6644248569F700F0BBFD /* HomeRemoteDataManager.swift in Sources */,
 				C39C663F248569F700F0BBFD /* HomePresenter.swift in Sources */,
 				C39C6643248569F700F0BBFD /* HomeView.swift in Sources */,
-				C3C5BE952486A6D200D9D5F0 /* CustonCell.swift in Sources */,
+				C3C5BE952486A6D200D9D5F0 /* CustomCell.swift in Sources */,
 				C39C6641248569F700F0BBFD /* HomeProtocols.swift in Sources */,
 				C39C66132485462100F0BBFD /* AppDelegate.swift in Sources */,
 				C39C6642248569F700F0BBFD /* HomeInteractor.swift in Sources */,

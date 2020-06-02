@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CustonCell: UITableViewCell {
+class CustomCell: UITableViewCell {
 
     @IBOutlet weak var imageMovie: UIImageView!
     
