@@ -18,7 +18,22 @@ class HomeView: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter?.viewDidLoad()
+       presenter?.viewDidLoad()
+       navigationControllerConfiguration()
+    }
+    
+    
+    func navigationControllerConfiguration(){
+        let navigation = UINavigationBarAppearance()
+        navigation.configureWithOpaqueBackground()
+        navigation.backgroundColor = .darkGray
+        navigation.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navigation.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.largeTitleDisplayMode = .automatic
+        navigationItem.title = "The Movies"
+        navigationController?.navigationBar.standardAppearance = navigation
+        navigationController?.navigationBar.scrollEdgeAppearance = navigation
     }
 }
 
