@@ -11,6 +11,8 @@ import UIKit
 
 class HomeView: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     // MARK: Properties
     var presenter: HomePresenterProtocol?
 
@@ -39,4 +41,23 @@ class HomeView: UIViewController {
 
 extension HomeView: HomeViewProtocol {
     // TODO: implement view output methods
+}
+
+extension HomeView: UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? CustonCell
+        
+        return cell!
+    }
+    
+    
+    
+}
+
+extension HomeView: UITableViewDelegate{
+    
 }
