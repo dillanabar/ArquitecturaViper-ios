@@ -12,7 +12,7 @@ import UIKit
 class HomeWireFrame: HomeWireFrameProtocol {
 
     class func createHomeModule() -> UIViewController {
-        let navController = mainStoryboard.instantiateViewController(withIdentifier: "HomeView")
+        let navController = mainStoryboard.instantiateViewController(withIdentifier: "homeView")
         if let view = navController as? HomeView {
             let presenter: HomePresenterProtocol & HomeInteractorOutputProtocol = HomePresenter()
             let interactor: HomeInteractorInputProtocol & HomeRemoteDataManagerOutputProtocol = HomeInteractor()
@@ -35,7 +35,7 @@ class HomeWireFrame: HomeWireFrameProtocol {
     }
     
     static var mainStoryboard: UIStoryboard {
-        return UIStoryboard(name: "Home", bundle: Bundle.main)
+        return UIStoryboard(name: "HomeView", bundle: Bundle.main)
     }
     
 }

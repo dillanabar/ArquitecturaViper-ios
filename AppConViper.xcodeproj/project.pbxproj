@@ -18,7 +18,7 @@
 		C39C6643248569F700F0BBFD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C663C248569F700F0BBFD /* HomeView.swift */; };
 		C39C6644248569F700F0BBFD /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C663D248569F700F0BBFD /* HomeRemoteDataManager.swift */; };
 		C39C6645248569F700F0BBFD /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39C663E248569F700F0BBFD /* HomeWireFrame.swift */; };
-		C39C664724856A2700F0BBFD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39C664624856A2700F0BBFD /* Home.storyboard */; };
+		C39C664724856A2700F0BBFD /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39C664624856A2700F0BBFD /* HomeView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		C39C663C248569F700F0BBFD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C39C663D248569F700F0BBFD /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
 		C39C663E248569F700F0BBFD /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
-		C39C664624856A2700F0BBFD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		C39C664624856A2700F0BBFD /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				C39C663C248569F700F0BBFD /* HomeView.swift */,
-				C39C664624856A2700F0BBFD /* Home.storyboard */,
+				C39C664624856A2700F0BBFD /* HomeView.storyboard */,
 				C39C6638248569F700F0BBFD /* HomePresenter.swift */,
 				C39C6639248569F700F0BBFD /* HomeLocalDataManager.swift */,
 				C39C663A248569F700F0BBFD /* HomeProtocols.swift */,
@@ -151,7 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C39C664724856A2700F0BBFD /* Home.storyboard in Resources */,
+				C39C664724856A2700F0BBFD /* HomeView.storyboard in Resources */,
 				C39C661F2485462300F0BBFD /* LaunchScreen.storyboard in Resources */,
 				C39C661C2485462300F0BBFD /* Assets.xcassets in Resources */,
 			);
