@@ -13,7 +13,7 @@ class HomeWireFrame: HomeWireFrameProtocol {
 
     class func createHomeModule() -> UIViewController {
         let navController = mainStoryboard.instantiateViewController(withIdentifier: "HomeView")
-        if let view = navController.children.first as? HomeView {
+        if let view = navController as? HomeView {
             let presenter: HomePresenterProtocol & HomeInteractorOutputProtocol = HomePresenter()
             let interactor: HomeInteractorInputProtocol & HomeRemoteDataManagerOutputProtocol = HomeInteractor()
             let localDataManager: HomeLocalDataManagerInputProtocol = HomeLocalDataManager()
